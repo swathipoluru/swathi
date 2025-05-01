@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bus-icon.svg/1024px-Bus-icon.svg.png" />
+    <style>
+        div{
+            width:"100px";
+            background-color:bisque;
+        }
+        #logo{
+            background-color: aquamarine;
+        }
+        #cs{
+            color: blue;
+        }
+        #play{
+            background-color:aquamarine;
+        }
+        #aa{
+            background-color: aquamarine;
+        }
+        #rr{
+            background-color: red;
+        }
+        #tt{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+    <div> 
+        <center>
+        <image src="./bus pass.jpg" width="100px" height="100px"></image>
+        <h1 id="cs">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    </div>
+    <fieldset>
+        <legend id="logo">Application Details</legend>
+        <form action="./welpage.html">
+            <lable for="user">Name<span style="color:red">*</span></lable>
+            <input type="text" id="user">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+            <lable for="use">Father's/Guardian's</lable>
+            <input type="text" id="use"   name="text"> <br> <br>
+            <label for="us">Date of birth<span style="color:red">*</span></label>
+            <input type="date" id="us"> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 
+            <label for="yes">Gender</label>
+            <input type="radio" for="yes" name="swathi">Female
+            <input type="radio" for="yes" name="swathi">Male <br> <br>
+            <lable>Age As on :</lable> &nbsp; &nbsp; &nbsp;
+            <input type="checkbox">Year(s)
+            <input type="checkbox">Months(s)
+            <input type="checkbox">Day(s) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <lable>Aadhaar No :</lable>  &nbsp; &nbsp; &nbsp;
+            <input type="text"> <br> <br>
+            <lable>WhatsApp No <span style="color:red">*</span></lable>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+            <input type="text"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <lable>E-mail Id <span style="color:red">*</span></lable> 
+            <input type="text"> <br> <br>
+            <lable>Photo<span style="color:red">*</span></lable> &nbsp; &nbsp; &nbsp;
+            <input type="file" id="photo" name="photo" accept=".docx">
+ 
+    </fieldset>
+ <fieldset>
+    <legend id="play">Residential Address Details</legend>
+ 
+ <label>Applicant's Address<span style="color:red">*</span></label>
+ <textarea rows="4" cols="20"></textarea> &nbsp; &nbsp;
+ <label>District <span style="color:red">*<span></label>&nbsp; &nbsp; 
+    
+ <select name="ass">
+    <option value="ass" selected disabled>---SELECT---</option>
+    <option value="ass">HYDERABAD</option>
+    <option value="ass">BENGULURE</option>
+    <option value="ass">CHENNAI</option> 
+ </select> &nbsp; <br> <br>
+ <label>Mandal<span style="color:red">*</span></label>
+ <select name="city ">
+    <option value=" select" selected disabled>---SELECT---</option>
+    <option value="hydarabad ">HYDERABAD</option>
+    <option value=" benguluru">BENGULURE</option>
+    <option value="chennai">CHENNAI</option> 
+ </select> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+ <label>village <span style="color:red">*</span></label>
+ <select name="city ">
+    <option value=" select" selected disabled>---SELECT---</option>
+    <option value="hydarabad ">HYDERABAD</option>
+    <option value=" benguluru">BENGULURE</option>
+    <option value="chennai">CHENNAI</option> 
+ </select><br> <br>
+
+    <label>Pincode <span style="color:red">*</span></label>
+    <input type="text" value="">
+
+ 
+ 
+ </fieldset>
+ <fieldset>
+    
+    <legend id="aa">Pass Type Details</legend>
+    
+    <label>City<span style="color:red">*</span></label> &nbsp; &nbsp;
+    <select>
+        <option>HYDERABAD</option>
+        <option>BANGULURU</option>
+        <option>CHENNAIS</option>
+    </select> <br> <br>
+    
+    <label>Pass Type <span style="color:red">*</span></label> &nbsp; &nbsp;
+    <select>
+        <option>---select---</option>
+        <option>GREATER PASS</option>
+        <option>GENERAL ORDINARY ROUT PASS</option>
+        <option>ORDINARY PASS</option>
+        <option>EXPRESS WAY</option>
+    </select>
+
+</fieldset>
+<fieldset>
+    <legend id="tt">Mode of payment & pass collection</legend>
+    
+    <label>Payment Mode <span style="color:red">*</span></label>
+    <select>
+        <option>select payment Mode</option>
+    </select> <br> <br>
+    <labled>pass delivery mode<span style="color:red">*</labled>
+        <select>
+            <option>select pass delivery mode</option>
+            </select> <br> <br>
+        
+        <label>center at which you want to collect pass<span style="color:red">*</span></label>
+        <select>
+            <option selected disabled>---select---</option>
+            <option>RTC ABID</option>
+            <option>RTC ABID</option>
+            <option>RTC ABID</option>
+            <option>RTC ABID</option>
+        </select>
+
+
+</fieldset> <br> <br>
+<center>
+<input type="text"> <br> <br>
+
+<input type="submit" value="submit" id="rr">
+</center>
+</form>
+
+    
+
+    
+</body>
+</html>
